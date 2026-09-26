@@ -11,14 +11,14 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-# ANSI Colors
+# Decorations
 BLUE='\033[0;34m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-# Ensure required directories exist
+# making sure directories exist
 mkdir -p reports
 
 # Step 1: Check Dependencies
